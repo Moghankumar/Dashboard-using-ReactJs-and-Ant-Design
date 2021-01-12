@@ -1,0 +1,75 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  width: 350px;
+  height: 400px;
+  padding: 80px 40px;
+  /* background: rgba(0, 0, 0, 0.6); */
+  background: rgba(0, 0, 0, 0.85);
+}
+.login h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login input[type="email"],
+.login input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: white;
+  height: 35px;
+  font-size: 15px;
+}
+
+#loginsubmit input {
+  height: 35px;
+  color: #fff;
+  font-size: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+}
+#reglogin {
+  text-align: center;
+}
+#reglogin p {
+  color: white;
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .login {
+    top: 10;
+    left: 0;
+    margin-left: 40px;
+    justify-content: center;
+  }
+  .login {
+    width: 320px;
+    height: 400px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login {
+    top: 10;
+    left: 1;
+    margin-left: -50px;
+    justify-content: center !important;
+  }
+}

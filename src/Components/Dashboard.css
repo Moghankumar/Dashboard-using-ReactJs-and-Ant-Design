@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+#searchbar {
+  float: left;
+  margin-top: 15px;
+}
+#searchbar input {
+  height: 35px;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-color: white;
+  background-color: whitesmoke;
+}
+#searchbar Button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 35px;
+  background-color: #4e73df;
+}
+
+.tablecontent {
+  margin-top: -20px;
+}
+.usericon {
+  display: flex;
+  margin-top: 10px;
+  float: right !important;
+  margin-right: -30px;
+}
+/* .usericon {
+  float: right;
+} */
+#icons {
+  margin-top: -10px;
+}
+.verticalline {
+  border-left: thin solid #858796;
+  margin-left: 30px;
+  text-align: center;
+  display: inherit;
+}
+#profile {
+  display: flex;
+  margin-left: 30px;
+}
+#profilecard {
+  margin-top: -15px;
+  margin-left: 5px;
+}
+#username {
+  margin-top: 5px;
+}
+
+.datatable {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .usericon {
+    margin-left: 35%;
+  }
+  #icons {
+    margin-left: -20%;
+  }
+
+  #profile {
+    margin-left: 25px;
+  }
+  #searchbar input {
+    height: 35px;
+    width: 120px;
+  }
+  #username {
+    display: none;
+  }
+  #fullheader {
+    margin-left: -40px;
+  }
+  .verticalline {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1150px) {
+  #icons {
+    margin-left: -70%;
+  }
+}

@@ -1,0 +1,77 @@
+.Register {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  top: 8%;
+  left: 35%;
+  width: 400px;
+  height: 600px;
+  padding: 80px 40px;
+  /* background: rgba(0, 0, 0, 0.6); */
+  background: rgba(0, 0, 0, 0.85);
+}
+.Register h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Register label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.Register input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Register input[type="email"],
+.Register input[type="password"],
+.Register input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: white !important;
+  height: 35px;
+  font-size: 15px;
+}
+.registersubmit input {
+  height: 30px;
+  color: #fff;
+  font-size: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+}
+.loginform {
+  text-align: center;
+}
+.loginform p {
+  color: white;
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .Register {
+    top: 10;
+    left: 0;
+    margin-left: 40px;
+  }
+  .Register {
+    width: 320px;
+    height: 600px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Register {
+    top: 10;
+    left: 1;
+    justify-content: center;
+  }
+  .Register {
+    width: 320px;
+    height: 620px;
+  }
+}

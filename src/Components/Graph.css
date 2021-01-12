@@ -1,0 +1,235 @@
+#doughnutchart {
+  width: 500px;
+  height: 330px;
+}
+#piechart {
+  width: 500px;
+  height: 380px;
+}
+#piechartdata {
+  width: 80%;
+  height: 80%;
+  margin-left: 25px;
+}
+#linechart {
+  width: 600px;
+  height: 380px;
+  justify-content: center;
+}
+#linechartdiv {
+  width: 100%;
+  height: 90%;
+}
+
+#graph {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.graphtopcontent {
+  margin-top: 10px;
+}
+.graphcard {
+  margin-left: 30px;
+}
+
+.chart {
+  /* box-shadow: rgb(0 0 0 / 0.1) 0px 4px 12px 1px !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+  background-color: rgba(255, 255, 255, 1) !important; */
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  overflow: hidden;
+}
+.secondchart {
+  display: none;
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .graphtopcontent {
+    margin-left: 0px;
+  }
+  #linechart Line {
+    width: 100px;
+    height: 100px;
+  }
+  .graphcard {
+    display: flex;
+    flex-direction: column;
+  }
+  .col {
+    margin-left: -0px;
+  }
+  #graph {
+    margin-left: 0;
+  }
+
+  .graphcard {
+    margin-left: 0;
+  }
+  .tablecontent {
+    margin-left: -25px;
+  }
+  #doughnutchart {
+    width: 320px;
+    height: 220px;
+  }
+  #piechart {
+    width: 320px;
+    height: 250px;
+  }
+  #piechartdata {
+    width: 100%;
+    height: 100%;
+    margin-left: -0;
+  }
+
+  #linechart {
+    width: 320px;
+    height: 250px;
+  }
+  #linechartdiv {
+    width: 100%;
+    height: 90%;
+  }
+
+  #chart2 {
+    margin-top: 20px;
+  }
+  .graphcard {
+    justify-content: center;
+  }
+  .secondchart {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #linechart {
+    width: 850px;
+    height: 500px;
+  }
+  #piechart {
+    width: 850px;
+    height: 500px;
+  }
+  #chart2 {
+    margin-top: 20px;
+  }
+  #maingraph {
+    margin-left: -0px;
+  }
+  .secondchart {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1380px) and (max-width: 1500px) {
+  /* 110% */
+  #linechart {
+    width: 555px;
+    height: 350px;
+    justify-content: center;
+  }
+  #linechartdiv {
+    width: 100%;
+    height: 90%;
+  }
+  #piechart {
+    width: 400px;
+    height: 350px;
+  }
+  #piechartdata {
+    width: 80%;
+    height: 80%;
+    margin-left: 25px;
+  }
+  .secondchart {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1380px) {
+  /* 125% */
+  #linechart {
+    width: 465px;
+    height: 320px;
+    justify-content: center;
+  }
+  #linechartdiv {
+    width: 100%;
+    height: 90%;
+  }
+  #piechart {
+    width: 315px;
+    height: 320px;
+  }
+  #piechartdata {
+    width: 90%;
+    height: 90%;
+    margin-left: 25px;
+  }
+  .secondchart {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1540px) and (max-width: 2500px) {
+  .secondchart {
+    display: inherit;
+  }
+  #graphrow {
+    display: none;
+  }
+
+  #piechartdata {
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+  }
+  #piechart {
+    text-align: center;
+  }
+  #linechartdiv {
+    width: 200%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 2500px) and (max-width: 3000px) {
+  #graphrow {
+    display: none;
+  }
+  .secondchart {
+    display: inherit;
+  }
+  #piechartdata {
+    width: 100%;
+    height: 100%;
+    margin-left: 30%;
+  }
+  #piechart {
+    text-align: center;
+  }
+  #linechartdiv {
+    width: 200%;
+    height: 100%;
+    margin-left: 30%;
+  }
+}
+@media only screen and (min-width: 3000px) and (max-width: 8000px) {
+  #graphrow {
+    display: none;
+  }
+  .secondchart {
+    display: inherit;
+  }
+  #piechartdata {
+    width: 200%;
+    height: 100%;
+    /* margin-left: 50%; */
+    text-align: center;
+  }
+  #piechart {
+    text-align: center;
+  }
+  #linechartdiv {
+    width: 200%;
+    height: 100%;
+    margin-left: 50%;
+  }
+}

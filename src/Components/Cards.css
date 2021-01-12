@@ -1,0 +1,96 @@
+#card {
+  margin-top: 5px;
+  border-radius: 10px;
+  /* box-shadow: rgb(0 0 0 / 0.1) 0px 4px 12px 1px !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+  background-color: rgba(255, 255, 255, 1) !important; */
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 235px;
+  height: 50px;
+}
+#dashboardtitle {
+  margin-left: 30px;
+}
+
+.card2 {
+  display: none;
+}
+@media only screen and (min-width: 250px) and (max-width: 360px) {
+  #generatebutton {
+    display: none;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+  #generatebutton {
+    display: none;
+  }
+  .card2 {
+    display: none;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1105px) {
+  /* 150% */
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+  }
+  .card2 {
+    display: none;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 1105px) and (max-width: 1380px) {
+  /* 125% */
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 155px;
+    height: 50px;
+  }
+  .card2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1380px) and (max-width: 1500px) {
+  /* 110% */
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+  }
+
+  .card2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1540px) and (max-width: 6500px) {
+  .card1 {
+    display: none;
+  }
+  .card2 {
+    display: inherit;
+    margin-left: 30px;
+  }
+}
